@@ -13,7 +13,7 @@ print(type(age))
 print(type(gpa))
 print(type(student))
 
-#Explicit typecasting conversion
+#Explicit typecasting conversion int to float, float to string
 
 age = float(age)
 print(type(age))
