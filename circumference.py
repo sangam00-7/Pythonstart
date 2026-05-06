@@ -1,0 +1,19 @@
+#circumference
+import math
+radius = float(input("Enter radius : "))
+circumference = 2 * math.pi * radius
+
+print(f"Circumferenceof a circle is {circumference}")
+
+#area
+
+radius = float(input("Enter radius of a circle:"))
+area = math.pi * radius **2
+print(f"Area of a circle is{area} m^2")
+
+#hypotenuse of right angle triangle
+
+a=float(input("Enter a: "))
+b=float(input("Enter b:"))
+c= math.sqrt(a+b)
+print(c)
