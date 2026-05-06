@@ -33,3 +33,9 @@ teacher = 3
 #teacher = teacher **3
 teacher **= 3
 print(teacher)
+
+#modulus operator
+daughter = 8
+#daughter = daughter % 3
+daughter %= 3
+print(daughter)
