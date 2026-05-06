@@ -15,5 +15,5 @@ print(f"Area of a circle is{area} m^2")
 
 a=float(input("Enter a: "))
 b=float(input("Enter b:"))
-c= math.sqrt(a+b)
+c= math.sqrt(pow(a,2)+pow(b,2))
 print(c)
