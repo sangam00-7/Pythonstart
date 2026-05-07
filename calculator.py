@@ -5,12 +5,16 @@ num1 = float(input("Enter first number : "))
 num2 = float(input("Enter second number : "))
 
 if operator == "+" :
-    print(num1+num2)
+    result = num1+num2
+    print(result)
 elif operator == "-" :
-    print(num1-num2)
+    result = num1-num2
+    print(result)
 elif operator == "*" :
-    print(num1*num2)
-elif operator == "/" :
-    print(num1/num2)
-else:
-    print("Please Enter correct operator.")
+    result = num1 * num2
+    print(result)
+elif operator =="/" :
+    result = num1 / num2 
+    print(result)
+else :
+    print("Please Enter correct operator !")
