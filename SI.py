@@ -1,3 +1,4 @@
+#Simple interest chcek
 p = float(input("Enter principal: "))
 r = float(input("Enter rate: "))
 t = float(input("Enter time: "))
