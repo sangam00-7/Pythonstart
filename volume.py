@@ -1,7 +1,7 @@
 # Volume of a cube
 
 side = float(input("Enter the side length of the cube: "))
-unit =input("Enter unit (m/cm/km)")
+unit =input("Enter unit (m/cm/km) : ")
 
 volume = side ** 3
 
