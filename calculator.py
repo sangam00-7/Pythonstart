@@ -18,3 +18,4 @@ elif operator =="/" :
     print(result)
 else :
     print("Please Enter correct operator !")
+    print("You are entering wrong operator.")
