@@ -1,4 +1,6 @@
 name = input("What is your name ?")
 age = input("Enter your age : ")
+standard = input("Enter your Class :")
 print("Hello",name)
 print("Age",age)
+print("Class", standard)
