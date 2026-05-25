@@ -4,3 +4,4 @@ num = "9761811669"
 print(num[1])
 print(num[-1])
 print(num[6:10])
+print(num[2:])
