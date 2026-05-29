@@ -5,4 +5,3 @@ while True :
     if num == 10 :
         print("Count Complete")
         break
-
