@@ -25,9 +25,9 @@ print(f"Total is {total:.2f}")
 #another approach
 
 
-principle = -1
-rate = -1
-time = -1
+principle = 0
+rate = 0
+time = 0
 
 while True :
     principle = float(input("Enter principle : "))
@@ -54,3 +54,17 @@ while True:
 
 total = principle * (1 + rate/100) ** time
 print(f"Total is {total:.2f}")
+
+
+
+#while True
+#     ↓
+#Run code
+#     ↓
+#Condition met?
+#   /      \
+# No        Yes
+# |          |
+#Repeat    break
+#             ↓
+#           Stop
