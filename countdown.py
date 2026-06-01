@@ -1,23 +1,18 @@
-#Rectangle structure
-rows = int(input("Enter no of rows: "))
-column = int(input("Enter no of columns: "))
-symbol = input("Enter symbol:")
+#countdown in forward order
 
-for x in range (rows):
-    for y in range(column):
-        print(symbol,end="a")
-    print()
-
-
-#
+#import time
+#my_time =int(input("Enter the time in seconds : "))
+#for x in range(0,my_time):
+#    print(x)
+#    time.sleep(1)
+#print("Time's up!")
 
 
-#Triangle
+#countdown in reversed order
 
-rows = int(input("Enter no of rows: "))
-symbol = input("Enter symbol:")
-
-for x in range (rows):
-    for y in range(x+1):
-        print(symbol,end="s")
-    print()
+import time
+my_time =int(input("Enter the time in seconds : "))
+for x in reversed(range(0,my_time)):
+    print(x)
+    time.sleep(1)
+print("Time's up!")
