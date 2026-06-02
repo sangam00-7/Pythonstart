@@ -51,3 +51,7 @@ print(fruits.count("kiwi"))
 
 #to find length or count all elements in list
 print(len(fruits))
+
+#Note :- dir() this function displays all the attributes and methods of any list,set or tuple
+
+#help() :- This function gives description of methods 
