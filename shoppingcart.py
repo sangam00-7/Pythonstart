@@ -9,7 +9,7 @@ while True:
         price = float(input(f"Enter price of a {food} : "))
         foods.append(food)
         prices.append(price)
-print("Your cart")
+print("______Your cart______")
 for food in foods:
     print(food)
 for price in prices:
