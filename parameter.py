@@ -6,3 +6,4 @@ unit = input("Enter unit (m/cm) .")
 print(f"Parameter is {result} {unit}")
 
 print("Thank you")
+print("For using Calculator")
