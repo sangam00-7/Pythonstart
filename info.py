@@ -1,5 +1,7 @@
 name = input("Enter your name : ")
 address = input("Enter your address : ")
 age = input ("Enter your age : ")
+height = float(input("Enter your height: "))
 print(f"My name is {name}. I am {age} years old. I live in {address}.")
 print(f"Hello {name}")
+print(f"Height is : {height}.")
