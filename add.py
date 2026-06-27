@@ -3,6 +3,9 @@
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-sum = num1 + num2
+total = num1 + num2
 
-print("Sum =", sum)
+print("Sum =", total)
+
+if total >= 0 or total < 0:
+    print("Success")
