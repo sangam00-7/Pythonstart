@@ -1,3 +1,6 @@
 name = input("Enter your full name : ")
+address= input("Enter Address : ")
+add= len(address)
 result = len(name)
 print(result)
+print(add)
