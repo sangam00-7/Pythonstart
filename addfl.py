@@ -1,4 +1,9 @@
-num1= float(input("Enter first float number : "))
-num2= float(input("Enter second float number : "))
-num3 = num1 + num2 
-print(num3)
+num = int(input("Enter no of values: "))
+
+total = 0
+
+for x in range(num):
+    number = float(input("Enter a float number: "))
+    total = total + number
+
+print("Sum =", total)
