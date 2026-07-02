@@ -17,3 +17,5 @@ a=float(input("Enter a: "))
 b=float(input("Enter b:"))
 c= math.sqrt(pow(a,2)+pow(b,2))
 print(f"Hypotenus of right angle triangle is : {c:.2f}")
+
+print("Successfull")
