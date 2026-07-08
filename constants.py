@@ -21,3 +21,5 @@ print(result)
 b=9.9
 result=math.floor(b)
 print(result)
+
+print("Successfull")
