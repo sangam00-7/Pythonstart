@@ -10,4 +10,4 @@ elif unit == "l" :
     result = weight / 2.2
     print(f"Your weight is {round(result,2)} Kilos.")
 else :
-    print("Invalid unit.")
+    print("Invalid unit. Please enter correct unit. ")
