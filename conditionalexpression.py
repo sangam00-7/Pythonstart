@@ -13,3 +13,4 @@ print(f"Maximum num is : {max_num}")
 
 min_num= a if a<b else b
 print(f"Minimum num is: {min_num}")
+print()
