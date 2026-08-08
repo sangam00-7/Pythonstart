@@ -30,3 +30,4 @@ for food in cart:
 
 print()
 print(f"Total is: ${total:.2f}")
+print()
